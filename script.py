@@ -1,8 +1,8 @@
 import csv
 
-arquivo_entrada = "C:\\teste\\listaEntrevistadores.csv"
+#abaixo, coloque o diretorio e o nome do arquivo que deve ser dividido
+arquivo_entrada = "C:\\teste\\arquivo.csv"
 
-# Conta registros (sem cabeçalho)
 with open(arquivo_entrada, "r", encoding="utf-8", newline="") as f:
     total_linhas = sum(1 for _ in f) - 1
 
