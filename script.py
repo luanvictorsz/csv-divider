@@ -17,8 +17,8 @@ with open(arquivo_entrada, "r", encoding="utf-8", newline="") as entrada:
 
     cabecalho = next(leitor)
 
-    with open("listaEntrevistadores_parte1.csv", "w", encoding="utf-8", newline="") as arq1, \
-         open("listaEntrevistadores_parte2.csv", "w", encoding="utf-8", newline="") as arq2:
+    with open("arquivo_parte1.csv", "w", encoding="utf-8", newline="") as arq1, \
+         open("arquivo_parte2.csv", "w", encoding="utf-8", newline="") as arq2:
 
         escritor1 = csv.writer(
             arq1,
